@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Camera">
+      <UniqueIdentifier>{454129b4-1155-4636-a7ce-973015912cd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Light">
+      <UniqueIdentifier>{222f9bbf-de70-4784-94ba-079478883e48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core">
+      <UniqueIdentifier>{958ed200-e485-4872-a294-c8b904b49c43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\WindowSystem">
+      <UniqueIdentifier>{ee27a9ca-58e8-44eb-8e34-aeedad846659}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Engine">
+      <UniqueIdentifier>{d9d41b9e-385f-4e43-b044-aca8ab91ff03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\InputSystem">
+      <UniqueIdentifier>{b5e434e9-0b0f-49ef-b9fd-1aae05af0c51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Scene">
+      <UniqueIdentifier>{e1aa9b80-95fc-4d2c-b254-4517026419e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Scene\BaseScene">
+      <UniqueIdentifier>{3eb310ff-086b-4e66-abbd-a7021230ed0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{386cd7df-b5f8-45f9-960c-5e6ffae4da02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics">
+      <UniqueIdentifier>{e0ce807a-573d-4265-9a79-52e8e3003b71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\Shader">
+      <UniqueIdentifier>{bfb88e52-2d67-455a-8959-e86eded72cac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\Skybox">
+      <UniqueIdentifier>{896ee89e-9ef4-4c24-acd9-e94f3373cc3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\OBJLoader">
+      <UniqueIdentifier>{4e71ee06-bf55-4b0c-ad2a-b4184477f219}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\RenderSystem">
+      <UniqueIdentifier>{96f5d49a-9adb-49d6-aa0c-201b38487ccb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\Post-processing">
+      <UniqueIdentifier>{75bb6c17-da28-48e7-a444-3c433c0330a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Scene\Demo">
+      <UniqueIdentifier>{1611e441-6aa1-4b49-b985-4c7cb0f53e11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Scene\Demo\Player">
+      <UniqueIdentifier>{1e031c5d-c7eb-4f10-866f-5cc0f99f9f92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Scene\Demo\TileMap">
+      <UniqueIdentifier>{a084d7e6-034f-4b8d-9519-4c9ae1094b84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Scene\Demo\Fish">
+      <UniqueIdentifier>{2725c19a-c1ea-48bf-bf62-39ae3d1f3ea6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Scene\Entity">
+      <UniqueIdentifier>{67e0ca00-977a-465a-af90-25fbd74bb7df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Scene\Entity\Transform">
+      <UniqueIdentifier>{1b67ddf5-53aa-43cf-a939-cf987d8cb721}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Scene\Entity\Entity">
+      <UniqueIdentifier>{86439e14-6307-4d25-8f72-43d89545f637}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Dependencies\include\glad\glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Source Files\Scene\BaseScene</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowSystem.cpp">
+      <Filter>Source Files\Core\WindowSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine.cpp">
+      <Filter>Source Files\Core\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderSystem.cpp">
+      <Filter>Source Files\Core\RenderSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Source Files\Scene\Entity\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Skybox.cpp">
+      <Filter>Source Files\Graphics\Skybox</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files\Scene\Demo\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Tilemap.cpp">
+      <Filter>Source Files\Scene\Demo\TileMap</Filter>
+    </ClCompile>
+    <ClCompile Include="Fish.cpp">
+      <Filter>Source Files\Scene\Demo\Fish</Filter>
+    </ClCompile>
+    <ClCompile Include="Hdr.cpp">
+      <Filter>Source Files\Graphics\Post-processing</Filter>
+    </ClCompile>
+    <ClCompile Include="stb_image.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Camera.h">
+      <Filter>Source Files\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine.h">
+      <Filter>Source Files\Core\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Source Files\Graphics\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowSystem.h">
+      <Filter>Source Files\Core\WindowSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="InputSystem.h">
+      <Filter>Source Files\Core\InputSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Source Files\Core\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Source Files\Scene\Entity\Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Source Files\Graphics\OBJLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Source Files\Scene\BaseScene</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderSystem.h">
+      <Filter>Source Files\Core\RenderSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Source Files\Scene\Entity\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Skybox.h">
+      <Filter>Source Files\Graphics\Skybox</Filter>
+    </ClInclude>
+    <ClInclude Include="resources\shaders\player.fs">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="resources\shaders\player.vs">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Source Files\Scene\Demo\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Source Files\Graphics\OBJLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>Source Files\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="Tilemap.h">
+      <Filter>Source Files\Scene\Demo\TileMap</Filter>
+    </ClInclude>
+    <ClInclude Include="Hdr.h">
+      <Filter>Source Files\Graphics\Post-processing</Filter>
+    </ClInclude>
+    <ClInclude Include="Fish.h">
+      <Filter>Source Files\Scene\Demo\Fish</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\shaders\tile.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="resources\shaders\tile.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="resources\shaders\skybox.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="resources\shaders\skybox.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="resources\shaders\bloomHDR.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="resources\shaders\bloomHDR.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="resources\shaders\blur.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="resources\shaders\blur.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="resources\shaders\tester.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="resources\shaders\tester.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="resources\shaders\fish.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="resources\shaders\fish.fs">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
